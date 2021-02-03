@@ -12,7 +12,7 @@ function UploadImage() {
     useEffect(() => {
         if (url) {
             fetch('/upload', {
-                method: "POST",
+                method: "post",
                 // mode: 'cors',
                 headers: {
                     "Content-Type": "application/json",

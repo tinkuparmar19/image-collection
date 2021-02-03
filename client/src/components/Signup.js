@@ -13,7 +13,7 @@ function Signup() {
     const handleSubmit = (e) => {
         e.preventDefault()
         fetch('/signup', {
-            method: "POST",
+            method: "post",
             // mode: 'cors',
             headers: {
                 "Content-Type": "application/json",

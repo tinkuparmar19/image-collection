@@ -12,7 +12,7 @@ function Login() {
     const handleSubmit = (e) => {
         e.preventDefault()
         fetch('/login', {
-            method: "POST",
+            method: "post",
             // mode: 'cors',
             headers: {
                 "Content-Type": "application/json",
