@@ -13,7 +13,7 @@ function UploadImage() {
         if (url) {
             fetch('/upload', {
                 method: "POST",
-                mode: 'cors',
+                // mode: 'cors',
                 headers: {
                     "Content-Type": "application/json",
                     "Authorization": "Bearer " + localStorage.getItem('jwt')

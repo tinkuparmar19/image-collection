@@ -13,7 +13,7 @@ function Login() {
         e.preventDefault()
         fetch('/login', {
             method: "POST",
-            mode: 'cors',
+            // mode: 'cors',
             headers: {
                 "Content-Type": "application/json",
             },

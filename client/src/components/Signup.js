@@ -14,7 +14,7 @@ function Signup() {
         e.preventDefault()
         fetch('/signup', {
             method: "POST",
-            mode: 'cors',
+            // mode: 'cors',
             headers: {
                 "Content-Type": "application/json",
             },
