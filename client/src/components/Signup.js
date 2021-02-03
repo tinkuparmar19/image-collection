@@ -12,7 +12,7 @@ function Signup() {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        fetch('http://localhost:5000/signup', {
+        fetch('/signup', {
             method: "POST",
             mode: 'cors',
             headers: {

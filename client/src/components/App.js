@@ -8,12 +8,6 @@ import UploadImage from './UploadImage'
 function App() {
   const history = useHistory()
 
-  // useEffect(() => {
-  //   const user = JSON.parse(localStorage.getItem('user'))
-  //   if (!user) {
-  //     history.push('/login')
-  //   }
-  // }, [])
 
   useEffect(() => {
     const user = JSON.parse(localStorage.getItem('user'))

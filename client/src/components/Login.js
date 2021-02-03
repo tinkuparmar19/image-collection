@@ -11,7 +11,7 @@ function Login() {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        fetch('http://localhost:5000/login', {
+        fetch('/login', {
             method: "POST",
             mode: 'cors',
             headers: {

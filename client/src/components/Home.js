@@ -9,7 +9,7 @@ function Home() {
     const history = useHistory()
 
     useEffect(() => {
-        fetch('http://localhost:5000/mypost', {
+        fetch('/mypost', {
             headers: {
                 'Authorization': 'Bearer ' + localStorage.getItem('jwt')
             }
